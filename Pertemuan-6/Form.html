@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form.</h1>
+    <input type="text" name="Username" />
+    <input type="password" name="Pass" />
+    <input type="submit" />
+    <p>
+      atribut name berfungsi untuk menjadi kunci dan variable yang akan
+      dikirimkan ke server
+    </p>
+    <p>
+      Sementara atribut method digunakan untuk menentukan metode antara mengirim
+      atau menerima
+    </p>
+    <hr />
+    <h1>Latihan membuat form login</h1>
+    <form action="login.php" method="post"></form>
+    <p>
+      <label>Username:</label>
+      <input
+        type="text"
+        name="Username"
+        placeholder="Username"
+        value="trtrtrt"
+      />
+    </p>
+    <p>
+      <label>Password:</label>
+      <input type="password" name="Pass" placeholder="Username" />
+    </p>
+    <p>
+      <label
+        ><input type="checkbox" name="remember" value="remember" />Remember
+        me</label
+      >
+    </p>
+    <p>
+      <input type="submit" name="submit" value="login" />
+    </p>
+  </body>
+</html>
