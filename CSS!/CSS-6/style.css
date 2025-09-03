@@ -1,0 +1,51 @@
+/* header {
+  background: #2a7b9b;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+} */
+
+header {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+}
+
+body {
+  /* background-image: url(https://images.unsplash.com/photo-1651166403368-0cd7b89a2792?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+  background-image: url(https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+header h1 {
+  font-family: "Times New Roman";
+  text-align: center;
+  text-decoration: underline wavy red;
+  line-height: 2;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+}
+
+#arabic {
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+p {
+  text-transform: lowercase;
+  font-size: xx-large;
+  direction: rtl;
+  text-decoration: underline dotted blue;
+  text-align: justify;
+}
+
+#Lorem {
+  text-indent: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  text-decoration: underline dashed green;
+  text-transform: uppercase;
+}

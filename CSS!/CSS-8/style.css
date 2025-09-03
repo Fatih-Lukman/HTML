@@ -1,0 +1,72 @@
+* {
+  /* border: 5px;
+  border-color: black;
+  border-style: solid; */
+  margin: auto;
+  /* margin: 30px; */
+}
+
+div {
+  color: blue;
+}
+
+p {
+  color: purple;
+}
+
+.TAG::first-letter {
+  font-size: xx-large;
+}
+
+.pink {
+  color: pink;
+  background-color: black;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.bg-teal {
+  color: yellow;
+}
+
+.text-white {
+  background-color: black;
+}
+
+#header {
+  background-color: teal;
+  color: white;
+  height: 100px;
+  padding: 50px;
+  text-align: center;
+}
+
+input[type="text"] {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  width: 400px;
+}
+
+/* .Japan:hover {
+  color: red;
+}
+a:hover {
+  margin-top: 30px;
+  color: red;
+} */
+a:hover {
+  background-color: white;
+  color: teal;
+  text-decoration: none;
+}
+
+a.halaman:hover {
+  background-color: red;
+}
+
+p::after {
+  color: black;
+  font-weight: 700;
+}

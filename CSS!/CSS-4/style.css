@@ -1,3 +1,13 @@
+.konten {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cumulus_Clouds_over_Yellow_Prairie2.jpg/1280px-Cumulus_Clouds_over_Yellow_Prairie2.jpg);
+  /* background: linear-gradient( */
+  /* 90deg, */
+  /* #cfd9df 0%, */
+  /* #e2ebf0 100% */
+  /* ); -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
 h1,
 h2,
 h3 {
@@ -10,15 +20,9 @@ p {
   font-family: "Times New Roman", Times, serif;
 }
 
-#input {
-  color: white;
-  background-color: black;
-}
-
-.input {
-  color: black;
-  background-color: white;
-}
-input {
-  background-color: blueviolet;
+#kon {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  padding: 10;
+  backdrop-filter: blur(20);
 }

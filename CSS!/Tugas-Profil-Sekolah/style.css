@@ -1,0 +1,177 @@
+* {
+  margin: auto;
+}
+
+header {
+  /* background-color: #002147; */
+  background-color: white;
+  padding: 30px;
+}
+
+header a {
+  word-spacing: 5px;
+  /* color: white; */
+  color: black;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a:hover {
+  color: silver;
+}
+
+#hero {
+  background-image: url(https://images.unsplash.com/photo-1570975640108-2292d83390ff?q=80&w=1322&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  padding: 204.5px;
+}
+
+#hero p {
+  color: white;
+  text-align: left;
+  text-align: center;
+  font-family: "Rethink Sans";
+}
+
+#hero h1 {
+  font-family: "Lexend Deca";
+  font-size: xx-large;
+  letter-spacing: -1px;
+  color: white;
+  text-align: center;
+}
+
+.hero-div {
+  background-color: rgba(0000, 0000, 0000, 0.8);
+  backdrop-filter: blur(10px);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+article {
+  margin-top: 100px;
+  text-align: center;
+  max-width: 910px;
+  margin-bottom: 100px;
+  font-family: "Rethink Sans";
+}
+
+.facility {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  max-width: 900px;
+  font-family: "Rethink Sans";
+}
+
+.facility-1,
+.facility-2,
+.facility-3 {
+  border: black solid 1px;
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #002147;
+  color: white;
+  padding: 20px;
+  margin-top: 100px;
+  font-family: "Lexend Deca";
+}
+
+h2 {
+  text-align: center;
+  font-family: "Lexend Deca";
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+#gallery {
+  text-align: center;
+  margin-top: 100px;
+  width: 1210px;
+}
+
+.images {
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.vision {
+  text-align: justify;
+  width: 900px;
+  font-family: "Rethink Sans";
+}
+
+.mission {
+  text-align: justify;
+  width: 900px;
+  font-family: "Rethink Sans";
+}
+
+legend {
+  font-size: large;
+  font-weight: 500;
+  font-family: "Lexend Deca";
+}
+
+fieldset {
+  border-radius: 15px;
+  border: black solid 1px;
+  margin-bottom: 20px;
+}
+
+fieldset p {
+  text-align: justify;
+}
+
+header img {
+  width: 40px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.menu {
+  display: block;
+  align-items: right;
+}
+
+.menu a {
+  margin-left: 20px;
+  font-weight: bold;
+}
+.Daftar {
+  background-color: #002147;
+  color: white;
+  border-radius: 30px;
+  vertical-align: middle;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
