@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: flex;
+        text-align: start;
+      }
+      h1 {
+        text-decoration: underline dotted blue;
+        text-transform: lowercase;
+        line-height: 100px;
+        /* letter-spacing: 10px; */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background-color: aliceblue;
+      }
+      h1::first-letter {
+        text-transform: capitalize;
+        font-size: xxx-large;
+      }
+      main {
+        text-shadow: 1px 1px 1pc;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo rerum
+        voluptatem iste, delectus ab cum deleniti non nostrum dicta. Quibusdam
+        veniam perspiciatis beatae dolor fuga rerum nulla consectetur quisquam?
+      </h1>
+      <p>Lorem, ipsum dolor.</p>
+    </main>
+  </body>
+</html>

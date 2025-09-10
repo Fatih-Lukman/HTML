@@ -1,0 +1,71 @@
+* {
+  margin: auto;
+}
+
+header {
+  font-family: "Lexend Deca";
+  align-items: left;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #002147;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-size: larger;
+  font-weight: 600;
+}
+
+#hero {
+  background-image: url(./1080px-Welcome_to_LEGOLAND_-_flickr_33394516022_24c7254f36_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px;
+}
+
+#hero h2 {
+  background-color: rgba(255, 255, 255, 1);
+  width: 40px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  vertical-align: middle;
+}
+
+#history {
+  font-family: "Lexend Deca";
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1210px;
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  border-radius: 30px;
+}
+
+#location {
+  font-family: "Lexend Deca";
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 1090px;
+}
+
+footer {
+  background-color: #002147;
+  color: white;
+  padding: 20px;
+  font-family: "Lexend Deca";
+}
