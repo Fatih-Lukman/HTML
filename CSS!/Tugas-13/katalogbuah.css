@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  border-radius: 15px;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+img {
+  width: 200px;
+  height: 215px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+img:hover {
+  border: 2px solid red;
+}
+
+h3 {
+  font-family: sans-serif;
+}
+
+p {
+  border: 5px dotted black;
+}
+
+.img1 {
+  border: 2px solid orange;
+}
+.img2 {
+  border: 2px solid greenyellow;
+}
+.img3 {
+  border: 2px solid yellow;
+}

@@ -1,0 +1,90 @@
+h1 {
+  font-size: 24px;
+  color: slateblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fontsmall {
+  font-size: small;
+}
+
+.fontbig {
+  font-size: x-large;
+}
+
+.fontbold {
+  font-weight: bold;
+}
+.fontbolder {
+  font-weight: bolder;
+}
+.fontlighter {
+  font-weight: lighter;
+}
+.fontnormal {
+  font-weight: normal;
+}
+
+.fontweight {
+  font-size: xxx-large;
+  font-family: "Roboto";
+}
+
+.Italic {
+  font-style: italic;
+}
+.Normal {
+  font-style: normal;
+}
+.oblique {
+  font-style: oblique;
+}
+
+.textdecor {
+  font-size: xx-large;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: larger;
+  padding: 10px;
+  border: 1px black solid;
+}
+.courierr {
+  font-family: Courier;
+}
+
+.ponpemily {
+  font-size: xx-large;
+}
+
+.Serif {
+  font-family: serif;
+}
+
+.Sans-serif {
+  font-family: sans-serif;
+}
+
+.Monospace {
+  font-family: monospace;
+}
+
+.Cursive {
+  font-family: cursive;
+}
+
+.Fantasy {
+  font-family: fantasy;
+}
+
+.noto {
+  font-family: "Noto Sans JP";
+}
+
+.noto-sans-jp {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}

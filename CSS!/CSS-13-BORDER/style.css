@@ -1,0 +1,35 @@
+header {
+  /* border bawah */
+  border-bottom: 5px solid purple;
+  /* border atas */
+  border-top: 5px dashed red;
+  /* border kiri */
+  border-left: 5px dotted dodgerblue;
+  /* border kanan */
+  border-right: 5px double orange;
+}
+
+h1 {
+  text-align: center;
+}
+
+main h1 {
+  border: 2px outset;
+  border-radius: 20px;
+}
+
+main h1:hover {
+  border: 2px inset;
+}
+
+footer h1 {
+  border: 40px solid transparent;
+  border-image-source: url(./border-new.png);
+  border-image-slice: 80 90;
+  /* border-image-repeat: round; */
+  border-radius: 24px;
+  max-width: 900px;
+  margin: auto;
+  height: 200px;
+  vertical-align: middle;
+}
