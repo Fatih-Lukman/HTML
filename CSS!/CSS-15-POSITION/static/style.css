@@ -1,0 +1,13 @@
+.container {
+  background: lightblue;
+  width: 600px;
+  height: 150px;
+}
+
+.yellow-box {
+  display: inline-block;
+  margin: 10px;
+  background: yellow;
+  width: 100px;
+  height: 100px;
+}
