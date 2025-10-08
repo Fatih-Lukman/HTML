@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+main {
+  background-color: lightblue;
+}
+
+header {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 40px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 30px;
+}
+
+.About-Me {
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+img {
+  width: 150px;
+}
+
+.Keahlian {
+  padding: 30px;
+  margin-top: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+.Keahlian h1,
+.Kontak h1 {
+  color: dodgerblue;
+}
+
+.Kontak {
+  padding: 30px;
+  margin-top: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+footer {
+  text-align: center;
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px;
+  font-family: sans-serif;
+}

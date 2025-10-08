@@ -1,0 +1,32 @@
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subheading {
+  padding-left: 30px;
+}
+
+span .heading,
+.subheading {
+  padding: 10px;
+  display: block;
+}
+
+.box1 {
+  text-align: center;
+  display: inline-block;
+  background-color: peachpuff;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+}
+
+.box2 {
+  text-align: center;
+  display: inline-block;
+  background-color: lightcoral;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}

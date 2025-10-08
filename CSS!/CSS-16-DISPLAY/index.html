@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+    <H1>Display Inline</H1>
+    <p style="font-size: x-large">
+      Ini adalah teks
+      <span style="text-decoration: underline; font-size: x-large">span</span>
+      didalam paragraf
+    </p>
+    <p>
+      Elemen span tidak akan memulai baris baru karena ia memiliki display
+      inline berbeda jika diganti spannya dengan p atau elemen lainnya maka akan
+      melanjutkan elemen lainnya ke bawah
+    </p>
+    <p>Yang bersifat inline adalah:
+    <ul>
+    <li>a</li>
+    <li>img</li>
+    <li>span</li>
+    <li>select</li>
+    <li>label dan input</li>
+    </ul>
+
+    </p>
+    <hr />
+    <h1>Display Block</h1>
+    <div style="background-color: lightblue; padding: 10px;">
+        <p>Ini adalah elemen yang bersifat Display Block</p>
+    </div>
+    <div class="Block">
+        <span class="heading">Pelatihan</span>
+        <span class="subheading">Kurikulum</span>
+        <span class="subheading">Materi</span>
+        <span class="subheading">Lokasi</span>
+    </div>
+
+    <div>
+        <span class="heading">Perusahaan</span>
+        <span class="subheading">Tim</span>
+        <span class="subheading">Visis Misi</span>
+    </div>
+    <hr>
+    <h1>Display Inline Block</h1>
+    <section class="box1">
+        <p>Kotak 1</p>
+    </section>
+
+    <section class="box2">
+        <p>Kotak 1</p>
+    </section>
+    <hr>
+    <h1>Display None</h1>
+    <p style="display: none;">Ini adalah pargraf yang disembunyikan</p>
+    <p>Di atas pargraf ini adalah pargraf yang disembunyikan dengan menggunakan displyan none walaupun terlihat di inspect dan terlihat wujudnya di vscode secara elemen namun tidak terlihat oleh pengguna di dalam website.</p>
+  </body>
+</html>
