@@ -1,0 +1,11 @@
+aside {
+  position: fixed;
+  float: left;
+  margin: 100px 0px 0px;
+}
+
+.plus {
+  background-color: orange;
+  text-align: center;
+  padding: 5px 0px;
+}
