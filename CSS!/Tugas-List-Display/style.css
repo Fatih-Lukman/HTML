@@ -103,3 +103,27 @@ dt {
   color: red;
   font-weight: bold;
 }
+
+.bg-gray {
+  background-color: #cfcfcf;
+}
+
+.type-square {
+  list-style-type: square;
+}
+
+.type-disc {
+  list-style-type: disc;
+}
+
+.type-circle {
+  list-style-type: circle;
+}
+
+.border-yellow-top {
+  border-top: 1px solid #ffb801;
+}
+
+.border-yellow-bottom {
+  border-bottom: 1px solid #ffb801;
+}
