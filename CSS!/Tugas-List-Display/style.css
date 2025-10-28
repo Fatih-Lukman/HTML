@@ -1,0 +1,105 @@
+* {
+  padding: auto;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: xxx-large;
+  background: #ffffff;
+  background: #a3a3a3;
+  background: radial-gradient(
+    circle,
+    rgba(163, 163, 163, 1) 0%,
+    rgba(97, 97, 97, 1) 50%,
+    rgba(135, 135, 135, 1) 100%
+  );
+}
+
+li,
+p,
+dd,
+dt {
+  font-size: small;
+}
+
+.card {
+  gap: 0px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bg-red {
+  color: white;
+  background-color: #fe6347;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-ol {
+  margin: 0px;
+  border-radius: 10px;
+  width: 20vw;
+  border-bottom: 2px solid #fe6347;
+  box-shadow: 1px 1px 4px gray;
+  height: 32vh;
+}
+
+.bg-yellow {
+  color: white;
+  background-color: #ffb801;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-ul {
+  border-radius: 10px;
+  width: 20vw;
+  margin: 0px;
+  border-bottom: 2px solid #ffb801;
+  box-shadow: 1px 1px 4px gray;
+  height: 32vh;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+.bg-blue {
+  color: white;
+  background-color: #01a4ef;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-dl {
+  border-radius: 10px;
+  width: 30vw;
+  border-bottom: 2px solid #01a4ef;
+  box-shadow: 1px 1px 4px gray;
+  margin: 0px;
+}
+
+dt,
+dd {
+  padding: 0px 20px 0px;
+  font-size: xx-small;
+}
+
+dl {
+  margin-bottom: 20px;
+}
+
+dt {
+  color: red;
+  font-weight: bold;
+}

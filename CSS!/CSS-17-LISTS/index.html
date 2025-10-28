@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .nav {
+        list-style-type: none;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .nav li {
+        margin: 0 15px;
+      }
+
+      .nav li a {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        color: black;
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      .nav li a:hover {
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+      }
+
+      .circle {
+        list-style-type: circle;
+      }
+      .square {
+        list-style-type: square;
+      }
+      .upper-roman {
+        list-style-type: upper-roman;
+      }
+      .lower-alpha {
+        list-style-type: lower-alpha;
+      }
+      .none {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .vertical {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+        background-color: #333;
+      }
+
+      .vertical li {
+        border-bottom: 1px solid #444;
+      }
+
+      .vertical li a {
+        display: block;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #333;
+      }
+
+      .vertical menu li a:hover {
+        background-color: #575757;
+      }
+
+      .img {
+        list-style: url(https://lh3.googleusercontent.com/drive-storage/AJQWtBM9ly-3Oqm3_wQeSx6U_EJf8Ddxp89og5dl4NDpImu8c0KjbPq41-b2JWPFRCTPMb-sgOeU4r22OkaXoFBxXcHyYiP16J6y85kEFY9IbUOkfzI=w1920-h877?auditContext=forDisplay);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>List (CSS)</h1>
+    <p><b>Unordered list</b></p>
+
+    <ul class="circle">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <ul class="square">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <p><b>Ordered list</b></p>
+
+    <ul class="upper-roman">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <ul class="lower-alpha">
+      <li>Kopi</li>
+      <li>Teh</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <p><b>None</b></p>
+    <ul class="none">
+      <li>ア</li>
+      <li>イ</li>
+      <li>ウ</li>
+    </ul>
+
+    <p><b>Vertical Menu</b></p>
+
+    <ul class="vertical">
+      <li><a href="#Home"></a>Home</li>
+      <li><a href="#About"></a>About</li>
+      <li><a href="#Services"></a>Services</li>
+      <li><a href="#Product"></a>Products</li>
+    </ul>
+
+    <p><b>Inside</b></p>
+
+    <ul style="list-style-position: inside">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ul>
+
+    <p><b>Outside</b></p>
+    <p>
+      Catatan: Inside memiliki posisi yang lebih menjorok ke dalam dibandinkan
+      outside
+    </p>
+
+    <ul style="list-style-position: outside">
+      <li>A</li>
+      <li>B</li>
+      <li>C</li>
+    </ul>
+
+    <p><b>List style image</b></p>
+
+    <ul class="img">
+      <li>Botol1</li>
+      <li>Botol2</li>
+      <li>Botol3</li>
+    </ul>
+  </body>
+</html>

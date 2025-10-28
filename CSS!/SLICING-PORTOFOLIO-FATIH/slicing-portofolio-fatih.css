@@ -1,0 +1,202 @@
+* {
+  padding: auto;
+  margin: auto;
+}
+
+header {
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  box-shadow: 1px 1px 2px gray;
+  /* margin-bottom: 100px; */
+  position: fixed;
+  width: 100vw;
+  background-color: white;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  font-size: small;
+  font-family: "Roboto";
+  color: #1c1e53;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #5e3bee;
+}
+
+header input[type="button"] {
+  background: none;
+  color: #5e3bee;
+  border: 1px solid #5e3bee;
+  padding: 10px;
+  font-size: small;
+  border-radius: 3px;
+}
+
+.hero {
+  padding: 100px;
+  background-color: #f5fcff;
+  display: flex;
+}
+
+img[src="./Image-1.png"] {
+  width: 400px;
+  vertical-align: middle;
+}
+
+.span-hero {
+  color: #5e3bee;
+}
+
+.text h6 {
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.text p {
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.text h1 {
+  margin-bottom: 30px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.text input[type="button"] {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #5e3bee;
+}
+
+.expertise {
+  margin-bottom: 100px;
+  padding: 100px;
+}
+
+.boxes {
+  display: flex;
+  gap: 20px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  padding: 16px 8px;
+  border-radius: 10px;
+  background-color: #f5fcff;
+}
+
+.img-box-1,
+.img-box-2,
+.img-box-3,
+.img-box-4 {
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px gray;
+  width: 65px;
+  /* background-color: #ffffff; */
+}
+
+.expertise h1 {
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #282938;
+}
+
+.expertise h6 {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #282938;
+  font-size: 12px;
+}
+
+.box1 h1,
+.box2 h1,
+.box3 h1,
+.box4 h1 {
+  margin: 10px 0px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #282938;
+  font-weight: bold;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #1c1e53;
+  font-weight: normal;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover {
+  border-bottom: 2px solid #5e3bee;
+}
+
+.about-me {
+  margin-bottom: 100px;
+  display: flex;
+  padding: 100px;
+}
+
+img[src="./About-Me-Photo.png"] {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.about-me-text p {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 15px;
+  color: #1c1e53;
+}
+
+.about-me-text h1 {
+  color: #282938;
+  font-family: "Roboto";
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-me-text h6 {
+  color: #282938;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+input[value="Visit My Dribble"] {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #e62872;
+}
