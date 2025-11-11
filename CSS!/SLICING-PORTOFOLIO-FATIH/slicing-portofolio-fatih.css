@@ -229,6 +229,12 @@ img[src="./About-Me-Photo.png"] {
 
 .project-head {
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-title {
+  margin-left: 0;
 }
 
 .project-head h6 {
@@ -236,6 +242,26 @@ img[src="./About-Me-Photo.png"] {
   font-weight: 500;
   color: #282938;
   font-size: small;
+}
+
+.project-head a {
+  margin-right: 0;
+  background-color: #e62872;
+  color: white;
+  border-radius: 5px;
+  padding: 1vw;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.project-head a:hover {
+  text-decoration: underline;
+}
+
+.project-head img {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 
 .project-head h1 {
@@ -342,7 +368,10 @@ span[class="material-symbols-outlined"] {
   margin-bottom: 50px;
 }
 
-.contact label {
+.first-line-form label,
+.second-line-form label,
+.third-line-form label,
+.forth-line-form label {
   display: block;
   font-family: "Roboto";
   font-weight: normal;
@@ -433,21 +462,20 @@ span[class="material-symbols-outlined"] {
 }
 
 .fifth-line-form {
-  /* margin-top: 10px;
-  justify-content: left;
-  display: flex;
-  align-items: center;
-  text-align: left;
-  width: 375px;
-  gap: 10px;
-  margin-bottom: 12px; */
-  align-items: normal;
-  justify-content: flex-start;
-  display: flex;
+  font-family: "Roboto";
+  font-size: 1vw;
+  margin-left: 15.7vw;
+  margin-top: 20px;
+}
+
+.fifth-line-form input {
+  vertical-align: middle;
+  padding: 1vw;
 }
 
 .contact input[type="submit"] {
   background: #5e3bee;
+  margin-top: 20px;
   color: white;
   border: 1px solid #5e3bee;
   padding: 7px 20px 7px;
